@@ -1,0 +1,154 @@
+/* Elements */
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+
+html{
+    background-color: blue;
+}
+body{
+    font-family: serif;
+    background-color: #77D4FC;
+}
+nav{
+    background-color: #77D4FC;
+}
+p, li, ul{ 
+    margin: 10px;
+    font-size: large;
+}
+h3{
+    font-family: instrumental, serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+hr{
+border: 4px;
+border-top: 4px dotted black;
+}
+input, textarea{
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 100%;
+    padding: 12px 40px;
+    margin: 8px 40px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    /* box-sizing: border-box; */
+}
+footer{
+    height: 150px;
+    text-align: center;
+}
+td{
+    padding-left: 20px;
+}
+
+
+
+
+/* Classes */
+.logo-image{
+    height: 60px;
+    width: 80px;
+    /* padding-left: 10px; */
+    
+}
+.navbar{
+    top: 0;
+    transition: top 0.3s;
+}
+.nav-link{
+    /* padding-left: 50px; */
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+}
+/* .nav-link:hover{
+    color: black;
+} */
+.name-p{
+    font-size: 50px;
+    /* font-weight: bold; */
+    font-family: rowdies;
+    opacity: 90%;
+}
+.form-div{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    /* padding: 1rem; */
+}
+.btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.social-img{
+    margin: 0px 30px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+
+
+/* Ids */
+#avatar-img{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+#projects-and-experience{
+line-height: 2;
+}
+#socials-div{
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    margin: auto;
+    padding: 50px 0px 0px 0px;
+}
+#home{
+    text-align: center;
+    background-color: #77D4FC;
+    color: white;
+}
+#hello-p{
+    font-size: 50px;
+    font-family: sacramento;
+}
+
+
+
+
+#projects-and-experience > p{
+    font-size: 25px;
+    font-weight: 700;
+}
+#contact > p{
+    text-align: center;
+}
+
+/* Responsive */
+@media (max-width:9480px) {
+    input, textarea{
+        border: 2px solid black;
+        border-radius: 50px;
+        width: 100%;
+        padding: 12px 40px;
+        margin: 8px;
+    }
+    input, textarea{
+        border: 2px solid black;
+        border-radius: 50px;
+        width: 70%;
+        padding: 12px 40px;
+        margin: 8px 5px;
+        box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+        /* box-sizing: border-box; */
+    }
+}
